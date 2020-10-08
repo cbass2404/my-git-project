@@ -98,12 +98,16 @@ then:
 
 ## check out a commit
 ```
+git log
+
 open new branch:
     git checkout commit# -b (branchname)
 ```
 
 ## revert entire project to previous commit
 ```
+git log
+
 open new branch:
     git checkout commit# -b (branchname)
     git reset --hard commit#
