@@ -75,3 +75,8 @@ git branch -d (name)
 ```
 click on branch, trashcan branch
 ```
+
+## reverting to previous commit, will not delete uncommited files
+```
+git checkout .
+```
