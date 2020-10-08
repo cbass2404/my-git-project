@@ -52,7 +52,7 @@ git stash clear
 git stash apply "stash@{1}"
 ```
 
-## to get information without auto changing your data
+## to get information without auto changing your data, best to use with team
 ```
 git fetch
 ```
