@@ -1,6 +1,6 @@
 # My Git Project
 
-> My change
+> Changed code
 
 ## starts a new branch
 ```
