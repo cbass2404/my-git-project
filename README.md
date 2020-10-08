@@ -80,3 +80,31 @@ click on branch, trashcan branch
 ```
 git checkout .
 ```
+
+## reverting a single file back to a specific commit
+```
+git log
+j - moves down
+k - moves up
+shift+g - to end
+copy commit#
+git checkout commit# -- (filename.extension)
+
+then:
+    git add .
+    git commit -m"message"
+    git push
+```
+
+## check out a commit
+```
+open new branch:
+    git checkout commit# -b (branchname)
+```
+
+## revert entire project to previous commit
+```
+open new branch:
+    git checkout commit# -b (branchname)
+    git reset --hard commit#
+```
