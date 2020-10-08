@@ -10,3 +10,7 @@ check current branch
 ```
 git branch 
 ```
+swaps back to master branch
+```
+git checkout master
+```
