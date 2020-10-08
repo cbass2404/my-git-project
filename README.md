@@ -107,4 +107,5 @@ open new branch:
 open new branch:
     git checkout commit# -b (branchname)
     git reset --hard commit#
+    git push -f origin masters
 ```
